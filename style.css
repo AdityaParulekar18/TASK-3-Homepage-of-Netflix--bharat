@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #141414;
+    padding: 1rem;
+
+    position: fixed;
+    width: 100px;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px;
+    object-fit: contain;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    align-items: center; 
+}
+
+nav ul li {
+    color: white;
+    cursor: pointer;
+    
+    gap: 2rem;
+    font-weight: bold;
+    white-space: nowrap; 
+}
+
+.hero {
+    background: url('https://mebincdn.themebin.com/1664271579476.jpg') no-repeat center center/cover;
+    background-size: cover; 
+    color: white;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero button {
+    background: #e50914;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.genres {
+    background: #0a0a0a; /* Background color for Popular Genres */
+    padding: 2rem;
+    text-align: center;
+}
+
+.genres h2 {
+    font-size: 2rem;
+    color: white; /* Text color for Popular Genres heading */
+}
+
+.genre-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.genre {
+    background: #555; /* Background color for each genre */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
